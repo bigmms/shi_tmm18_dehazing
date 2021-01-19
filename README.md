@@ -38,9 +38,9 @@ The test results will be saved in: `./Results/`
 ## Results
 ![](./docs/demo_results_1.png)
 
-![](.\docs\demo_results_2.png)
+![](./docs/demo_results_2.png)
 
-![](.\docs\demo_results_3.png)
+![](./docs/demo_results_3.png)
 
 ## License + Attribution
 This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/8295116):
