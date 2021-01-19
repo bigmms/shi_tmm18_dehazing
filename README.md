@@ -10,12 +10,11 @@ This repository contains implementation of our TMM paper titled as __Removing Ha
 **Paper**: [PDF](https://ieeexplore.ieee.org/document/8295116)
 
 ## Requirements
-### Dataset
-To build noise dataset, you'll also need:
-* [SIPI-Aerials](http://sipi.usc.edu/database/database.php)
-* [COWC](https://gdo152.llnl.gov/cowc/)
-* [Inria-Aerial](https://project.inria.fr/aerialimagelabeling/)
-* [DOTA](https://captain-whu.github.io/DOTA/dataset.html)
+### Datasets 
+
+You can find datasets of images we used here:
+* [Waterloo IVC](http://ivc.uwaterloo.ca/database/dehaze.html)
+* [Middlebury Stereo](https://vision.middlebury.edu/stereo/data/)
 
 ### Dependencies
 * MATLAB R2019a
@@ -32,12 +31,16 @@ Might work under others, but didn't get to test any other OSs just yet.
 $ git clone https://github.com/bigmms/shi_tmm18_dehazing.git
 $ cd shi_tmm18_dehazing
 $ matlab
->> demo
+>> Demo
 ```
 The test results will be saved in: `./Results/`
 
 ## Results
-![](./docs/demo_results.png)
+![](./docs/demo_results_1.png)
+
+![](.\docs\demo_results_2.png)
+
+![](.\docs\demo_results_3.png)
 
 ## License + Attribution
 This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/8295116):
